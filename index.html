@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Employee Registration Form</h1>
+    <form action="" onsubmit="return false;">
+        <label for=""><b>First Name</b></label><br>
+        <input type="text" name="FirstName" id="fname" placeholder="First Name" size="37"><br>
+        
+        <label for=""><b>Last Name</b></label><br>
+        <input type="text" name="LastName" id="lname" placeholder="Last Name" size="37"><br>
+        
+        <label for=""><b>Email</b></label><br>
+        <input type="email" name="email" id="email" placeholder="Email" size="37"><br>
+        
+        <label for=""><b>Address</b></label><br>
+        <textarea name="address" id="address" cols="30" rows="5"></textarea><br>
+        
+        <button type="submit" onclick="getValues()">Register</button>
+    </form>
+    
+</body>
+</html>
